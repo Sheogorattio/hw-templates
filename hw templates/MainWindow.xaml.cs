@@ -35,5 +35,10 @@ namespace hw_templates
             //if(Chk.IsChecked == true) Chk.IsChecked = false;
             //else Chk.IsChecked=true;
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
